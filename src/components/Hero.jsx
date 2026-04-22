@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Play, ChevronRight, Star, Clock, Shield, ArrowRight } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 const Hero = () => {
   const videoRef = useRef(null);
 
@@ -67,12 +67,16 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-              <button className="bg-gold-500 hover:bg-gold-600 text-gray-900 font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-2 group">
-                Get Instant Quote <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-              </button>
-              <button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-4 px-8 rounded-lg transition-all duration-300">
-  View Our Work
-</button>
+              <Link to="/contact">
+  <button className="bg-gold-500 hover:bg-gold-600...">
+    Get Instant Quote <ArrowRight className="w-5 h-5..." />
+  </button>
+</Link>
+              <Link to="/portfolio">
+  <button className="bg-transparent border-2 border-white...">
+    View Our Work
+  </button>
+</Link>
             </div>
             
             {/* Animated Stats Row */}

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { MessageSquare, Paintbrush, Printer as PrinterIcon, CheckCircle, Truck, Rocket, Clock, Award, Star, Zap, Shield, ThumbsUp, ArrowRight } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 const steps = [
   { 
     number: '01', 
@@ -172,14 +172,19 @@ const HowItWorks = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3 shadow-xl group">
-              Start Your Project 
-              <Rocket className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="bg-white hover:bg-gray-50 text-gray-800 font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3 shadow-xl border border-gray-200 group">
-              Request Free Quote 
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <Link to="/contact">
+  <button className="bg-gradient-to-r from-red-600 to-red-700...">
+    Start Your Project 
+    <Rocket className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+  </button>
+</Link>
+            <Link to="/contact">
+  <button className="bg-white hover:bg-gray-50...">
+    Request Free Quote 
+    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+  </button>
+</Link>
+
           </div>
 
           {/* Trust Badges */}
