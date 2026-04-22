@@ -69,17 +69,18 @@ const CTA = () => {
           {/* Buttons */}
           <div className="flex flex-wrap justify-center gap-5">
             <Link to="/contact">
-  <button className="bg-gray-900 hover:bg-gray-800...">
-    Get Your Free Quote Now 
-    <ArrowRight className="w-5 h-5..." />
-  </button>
-</Link>
+            <button className="bg-gray-900 hover:bg-gray-800 text-white font-bold py-4 px-10 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3 shadow-xl group">
+              Get Your Free Quote Now 
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </button>
+            </Link>
             <a href="tel:03252467463">
-  <button className="bg-white hover:bg-gray-100...">
-    <Phone className="w-5 h-5" /> 
-    Call: 0325 2467463
-  </button>
-</a>
+            <button className="bg-white hover:bg-gray-100 text-gray-900 font-bold py-4 px-10 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3 shadow-xl group">
+              <Phone className="w-5 h-5" /> 
+              Call: 0325 2467463
+            </button>
+            </a>
+
           </div>
           
           {/* Trust Badges */}
