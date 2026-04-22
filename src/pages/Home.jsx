@@ -5,7 +5,6 @@ import ServicesSection from '../components/Services';
 import Stats from '../components/Stats';
 import PortfolioSection from '../components/Portfolio';
 import IndustriesSection from '../components/Industries';
-import FastGroupCompanies from '../components/FastGroupCompanies';
 import HowItWorks from '../components/HowItWorks';
 import Testimonials from '../components/Testimonials';
 import CTA from '../components/CTA';
@@ -38,7 +37,6 @@ const Home = () => {
       <Stats />
       <PortfolioSection />
       <IndustriesSection />
-      <FastGroupCompanies />
       <HowItWorks />
       <Testimonials />
       <CTA />
