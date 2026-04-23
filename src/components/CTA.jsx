@@ -74,10 +74,10 @@ const CTA = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
             </Link>
-            <a href="tel:03252467463">
+            <a href="tel:03317924742">
             <button className="bg-white hover:bg-gray-100 text-gray-900 font-bold py-4 px-10 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3 shadow-xl group">
               <Phone className="w-5 h-5" /> 
-              Call: 0325 2467463
+              Call: 0331 7924742
             </button>
             </a>
 

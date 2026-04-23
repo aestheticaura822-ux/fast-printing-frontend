@@ -92,11 +92,11 @@ const Footer = () => {
               </li>
               <li className="flex gap-3 group">
                 <Phone className="w-5 h-5 text-yellow-500" />
-                <span className="text-gray-400 group-hover:text-white transition">0325 2467463 (WhatsApp)<br />03210846667</span>
+                <span className="text-gray-400 group-hover:text-white transition">0325 2467463 (WhatsApp)<br />03317924742</span>
               </li>
               <li className="flex gap-3 group">
                 <Mail className="w-5 h-5 text-yellow-500 group-hover:scale-110 transition" />
-                <a href="mailto:xfastgroup001@gmail.com" className="text-gray-400 group-hover:text-white transition">xfastgroup001@gmail.com</a>
+                <a href="mailto:fastmediaagencyofficial@gmail.com" className="text-gray-400 group-hover:text-white transition">fastmediaagencyofficial@gmail.com</a>
               </li>
             </ul>
             

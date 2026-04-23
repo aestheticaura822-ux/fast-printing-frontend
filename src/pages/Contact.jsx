@@ -96,7 +96,7 @@ const Contact = () => {
   // WhatsApp Message
   const sendWhatsApp = () => {
     const message = `Hello Fast Printing!%0A%0A*New Project Inquiry*%0A%0A*Name:* ${formData.fullName || 'Not provided'}%0A*Email:* ${formData.email || 'Not provided'}%0A*Phone:* ${formData.phone || 'Not provided'}%0A*Company:* ${formData.company || 'Not provided'}%0A*Industry:* ${formData.industry || 'Not provided'}%0A*Service:* ${formData.service || 'Not provided'}%0A*Dimensions:* ${formData.width || '0'} x ${formData.height || '0'} inches%0A*Quantity:* ${formData.quantity || 'Not provided'}%0A*Message:* ${formData.message || 'Not provided'}`;
-    window.open(`https://wa.me/923252467463?text=${message}`, '_blank');
+    window.open(`https://wa.me/923317924742?text=${message}`, '_blank');
   };
 
   const industries = [
@@ -119,8 +119,8 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: MapPin, title: 'Visit HQ', details: ['101A, J1 Block, Valencia Town', 'Main Defence Road, Lahore, Pakistan'], action: 'Get Directions →', link: 'https://maps.google.com/?q=Valencia+Town+Lahore' },
-    { icon: Phone, title: 'Call Us', details: ['0325 2467463', '0339 5447890'], action: 'Call Now', link: 'tel:03252467463' },
-    { icon: Mail, title: 'Email Us', details: ['xfastgroup001@gmail.com'], action: 'Send Email', link: 'mailto:xfastgroup001@gmail.com' }
+    { icon: Phone, title: 'Call Us', details: ['0325 2467463', '0331 7924742'], action: 'Call Now', link: 'tel:03317924742' },
+    { icon: Mail, title: 'Email Us', details: ['fastmediaagencyofficial@gmail.com'], action: 'Send Email', link: 'mailto:fastmediaagencyofficial@gmail.com' }
   ];
 
   const stats = [
@@ -243,7 +243,7 @@ const Contact = () => {
             <h2 className="text-3xl font-bold text-white mb-4 reveal">Prefer a <span className="text-yellow-500">Quick Call?</span></h2>
             <p className="text-gray-200 mb-8 reveal">Our team is available Monday through Saturday (10 AM - 8 PM) to answer your questions and provide instant quotes</p>
             <div className="flex flex-wrap justify-center gap-4 reveal">
-              <a href="tel:03252467463"><button className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-xl transition-all duration-300 hover:scale-105 shadow-xl flex items-center gap-2"><Phone className="w-5 h-5" /> Call 0325 2467463</button></a>
+              <a href="tel:03252467463"><button className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-xl transition-all duration-300 hover:scale-105 shadow-xl flex items-center gap-2"><Phone className="w-5 h-5" /> Call 0331 7924742</button></a>
               <a href="https://wa.me/923252467463"><button className="bg-white hover:bg-gray-100 text-red-700 font-bold py-3 px-8 rounded-xl transition-all duration-300 hover:scale-105 shadow-xl flex items-center gap-2"><MessageCircle className="w-5 h-5" /> WhatsApp Now</button></a>
             </div>
           </div>
