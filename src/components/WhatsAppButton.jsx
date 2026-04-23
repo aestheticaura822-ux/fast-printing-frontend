@@ -99,7 +99,7 @@ const WhatsAppButton = () => {
                 <a href="tel:03317924742" className="flex items-center gap-1 text-green-600 hover:text-green-700">
                   <Phone className="w-3 h-3" /> Call
                 </a>
-                <a href="mailto:xfastgroup001@gmail.com" className="flex items-center gap-1 text-green-600 hover:text-green-700">
+                <a href="mailto:fastmediaagencyofficial@gmail.com" className="flex items-center gap-1 text-green-600 hover:text-green-700">
                   <Mail className="w-3 h-3" /> Email
                 </a>
               </div>
