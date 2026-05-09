@@ -88,11 +88,11 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex gap-3 group">
                 <MapPin className="w-5 h-5 text-yellow-500 group-hover:scale-110 transition" />
-                <span className="text-gray-400 group-hover:text-white transition">101A, J1 Block, Valencia Town<br />Main Defence Road, Lahore, Pakistan</span>
+                <span className="text-gray-400 group-hover:text-white transition">101 Queen Street, West Toronto ON M5H 2N1 <br />CANADA</span>
               </li>
               <li className="flex gap-3 group">
                 <Phone className="w-5 h-5 text-yellow-500" />
-                <span className="text-gray-400 group-hover:text-white transition">0325 2467463 (WhatsApp)<br />03317924742</span>
+                <span className="text-gray-400 group-hover:text-white transition">+1 (604) 239-6141 (WhatsApp)</span>
               </li>
               <li className="flex gap-3 group">
                 <Mail className="w-5 h-5 text-yellow-500 group-hover:scale-110 transition" />

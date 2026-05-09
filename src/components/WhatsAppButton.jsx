@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [message, setMessage] = useState('');
-  const phoneNumber = '923317924742'; // Pakistan number without + (923252467463)
+  const phoneNumber = '16042396141'; // Pakistan number without + (923252467463)
   
   // WhatsApp link with pre-filled message
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
@@ -96,7 +96,7 @@ const WhatsAppButton = () => {
             <div className="bg-gray-50 p-3 text-center text-xs text-gray-500 border-t border-gray-100">
               Or contact us directly:
               <div className="flex justify-center gap-4 mt-2">
-                <a href="tel:03317924742" className="flex items-center gap-1 text-green-600 hover:text-green-700">
+                <a href="tel:16042396141" className="flex items-center gap-1 text-green-600 hover:text-green-700">
                   <Phone className="w-3 h-3" /> Call
                 </a>
                 <a href="mailto:fastmediaagencyofficial@gmail.com" className="flex items-center gap-1 text-green-600 hover:text-green-700">
